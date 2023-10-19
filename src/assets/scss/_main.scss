@@ -1,0 +1,25 @@
+@forward './variables/variables';
+@use './variables/variables' as *;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+body {
+  margin: 0;
+}
+p {
+  font-family: $font-main;
+  font-size: 12px;
+  margin: 0 0 15px;
+  color: $main-text-color;
+}
+span {
+  font-family: $font-main;
+  color: $main-text-color;
+  font-size: 12px;
+}
+
+main {
+  padding: 10px 0;
+  min-height: calc(100vh - 78px);
+}
